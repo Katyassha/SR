@@ -5,4 +5,4 @@ h = float(input('Задайте величину шага: '))
 while a <= b:
     y = round(((math.exp(a) - (math.exp(a)) ** -1) / 2) ** 3, 3)
     print('x = ', a, '; y = ', y, sep='')
-    a = round(a + h, 1)
+    a = round(a + h, 3)
